@@ -7,3 +7,5 @@ data = ['  apple', 'banana ', '  mango ', 'grape']
 # expected output: ['apple', 'banana', 'mango', 'grape']
 # HINT: use the str.strip() method to remove whitespace from the beginning and end of a string
 
+nospace = map(str.strip, data)
+print(list(nospace))
